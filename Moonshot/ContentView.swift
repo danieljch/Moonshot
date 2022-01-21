@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    let layout = [
+    GridItem(.fixed(80)),
+    GridItem(.fixed(80)),
+    GridItem(.fixed(80))
+]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView(.horizontal) {
+            LazyHGrid(rows: layout) {
+                ForEach(0..<1000) {
+                    Text("Item \($0)")
+                }
+            }
+        }
     }
 }
 
