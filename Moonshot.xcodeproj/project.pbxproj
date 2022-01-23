@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30AFF986279CFE030084DCA1 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AFF985279CFE030084DCA1 /* Bundle-Decodable.swift */; };
 		30C75B28279B465300E4468C /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C75B27279B465300E4468C /* MoonshotApp.swift */; };
 		30C75B2A279B465300E4468C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C75B29279B465300E4468C /* ContentView.swift */; };
 		30C75B2C279B465600E4468C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C75B2B279B465600E4468C /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30AFF985279CFE030084DCA1 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		30C75B24279B465300E4468C /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C75B27279B465300E4468C /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		30C75B29279B465300E4468C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				30C75B27279B465300E4468C /* MoonshotApp.swift */,
 				30C75B29279B465300E4468C /* ContentView.swift */,
+				30AFF985279CFE030084DCA1 /* Bundle-Decodable.swift */,
 				30C75B35279B517700E4468C /* Astronaut.swift */,
 				30C75B38279B51A800E4468C /* astronauts.json */,
 				30C75B37279B51A800E4468C /* missions.json */,
@@ -151,6 +154,7 @@
 				30C75B36279B517700E4468C /* Astronaut.swift in Sources */,
 				30C75B2A279B465300E4468C /* ContentView.swift in Sources */,
 				30C75B28279B465300E4468C /* MoonshotApp.swift in Sources */,
+				30AFF986279CFE030084DCA1 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
