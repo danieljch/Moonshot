@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 extension Bundle {
     func decode(_ file: String) -> [String: Astronaut] {
         guard let url = self.url(forResource: file, withExtension: nil) else {
