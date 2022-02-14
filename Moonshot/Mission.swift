@@ -31,3 +31,7 @@ struct Mission: Codable, Identifiable {
     }
 }
 
+struct CrewMember {
+    let role: String
+    let astronaut: Astronaut
+}

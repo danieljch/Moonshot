@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+// Challenge 2
 struct RectangleDivider: View {
     let height: CGFloat
     let color: Color
